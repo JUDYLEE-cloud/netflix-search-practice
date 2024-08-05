@@ -1,0 +1,18 @@
+.navigation {
+    background-color: rgb(255, 255, 255, 0.4);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0 10px 0 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+.navigation span {
+    font-size: 2.5rem;
+    color: var(--background-purple);
+}
+.icon-clicked {
+    font-weight: 600;
+}

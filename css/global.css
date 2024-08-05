@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
+@import "./reset.css";
+@import "./variable.css";
+@import "./navigation.css";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Serif KR", serif;
+    background-color: var(--background-purple);
+    color: white;
+}
+
+input {
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative {
+    position: relative;
+}
+
